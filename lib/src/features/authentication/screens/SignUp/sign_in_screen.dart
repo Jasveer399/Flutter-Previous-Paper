@@ -39,7 +39,7 @@ class _Signin_screenState extends State<Signin_screen> {
                       decoration: InputDecoration(
                         labelText: EnterName,
                         hintText: EnterName,
-                        prefixIcon: Icon(Icons.class_outlined),
+                        prefixIcon: Icon(Icons.person_outline),
                       ),
                     ),
                      SizedBox(
@@ -47,11 +47,12 @@ class _Signin_screenState extends State<Signin_screen> {
                 ),
                 //Phone no Text Field;
                 TextFormField(
+                  keyboardType: TextInputType.phone,
                   decoration: InputDecoration(
                     labelText: EnterPhoneNo,
                     hintText: EnterPhoneNo,
                     prefixIcon: Icon(
-                      Icons.person_outline_outlined,
+                      Icons.phone_outlined,
                     ),
                   ),
                 ),

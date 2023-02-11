@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:previous_paper/src/constants/image.dart';
 import 'package:previous_paper/src/constants/text.dart';
 import 'package:previous_paper/src/features/authentication/screens/SignUp/sign_in_screen.dart';
+import 'package:previous_paper/src/features/authentication/screens/dashboard/dashboard_screen.dart';
 
 
 class Login_Footer extends StatelessWidget {
@@ -20,7 +21,9 @@ class Login_Footer extends StatelessWidget {
           width: double.infinity,
           height: 55,
           child: ElevatedButton(
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(context, MaterialPageRoute(builder: ((context) => Dashboard_screen())));
+            },
             child: Text(
               Signintext,
               style: TextStyle(fontWeight: FontWeight.w400, fontSize: 17),

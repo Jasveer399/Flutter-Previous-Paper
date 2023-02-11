@@ -6,16 +6,16 @@ class AppElivaterbutton {
   static final lightElivaterbutton = ElevatedButtonThemeData(
     style: OutlinedButton.styleFrom(
       foregroundColor: AppWhiteCl,
-      backgroundColor: ElevatorCl,
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(9.0))
+      backgroundColor: AppprimeCl,
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15.0))
     ),
   );
 
   static final darkElivaterbutton = ElevatedButtonThemeData(
     style: OutlinedButton.styleFrom(
       foregroundColor: AppsecondaryCl,
-     
-      backgroundColor: ElevatorCl,
+     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15.0)),
+      backgroundColor: AppprimeCl,
     ),
   );
 }
